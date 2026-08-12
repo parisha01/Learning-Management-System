@@ -1,0 +1,23 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="certTitle">
+  <title id="certTitle">Certificate of completion issued by Northlight LMS to Parisha Katuwal for the Data Literacy Foundations course</title>
+  <rect width="800" height="560" fill="#F3F1EA"/>
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#E3A23C" stroke-width="3"/>
+  <rect x="34" y="34" width="732" height="492" fill="none" stroke="#16233F" stroke-width="1"/>
+  <text x="400" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5C8374" letter-spacing="4">CERTIFICATE OF COMPLETION</text>
+  <text x="400" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#16233F">Northlight LMS</text>
+  <text x="400" y="250" text-anchor="middle" font-family="Arial" font-size="14" fill="#3C4859">This certifies that</text>
+  <text x="400" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#16233F" font-style="italic">Parisha Katuwal</text>
+  <line x1="250" y1="316" x2="550" y2="316" stroke="#D9DED6"/>
+  <text x="400" y="350" text-anchor="middle" font-family="Arial" font-size="14" fill="#3C4859">has successfully completed</text>
+  <text x="400" y="382" text-anchor="middle" font-family="Arial" font-size="18" fill="#16233F" font-weight="bold">Data Literacy Foundations</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Arial" font-size="12" fill="#9AA6A0">6 modules · 3.5 hours · Score 92%</text>
+
+  <g transform="translate(370,440)">
+    <circle r="34" fill="#E3A23C"/>
+    <path d="M -12 0 L -4 9 L 13 -10" fill="none" stroke="#16233F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <line x1="120" y1="480" x2="260" y2="480" stroke="#16233F"/>
+  <text x="190" y="498" text-anchor="middle" font-family="Arial" font-size="11" fill="#3C4859">Program Director</text>
+  <line x1="540" y1="480" x2="680" y2="480" stroke="#16233F"/>
+  <text x="610" y="498" text-anchor="middle" font-family="Arial" font-size="11" fill="#3C4859">Date issued: 12 Aug 2026</text>
+</svg>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media — Northlight LMS</title>
+<meta name="description" content="A closer look at Northlight LMS: dashboard, course builder, mobile app, certificates, discussion boards and admin analytics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html">
+      <img src="images/logo.svg" alt="" width="38" height="38">
+      <span class="brand-name">Northlight LMS</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="media.html" aria-current="page">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section-tight">
+    <div class="container">
+      <span class="eyebrow">Media &amp; screenshots</span>
+      <h1>A closer look inside Northlight</h1>
+      <p class="lede" style="max-width:66ch;font-size:1.05rem;">Every screen below is a self-created mockup illustrating how Northlight looks in use. Select any thumbnail to view it larger.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="gallery-heading">
+    <div class="container">
+      <h2 id="gallery-heading" class="visually-hidden">Screenshot gallery</h2>
+
+      <div class="gallery-grid">
+        <button type="button" class="gallery-item"
+          data-full="images/mockup-dashboard.svg"
+          data-title="Learner dashboard"
+          data-desc="The home screen every learner sees: active course cards with live progress bars and a weekly study-time chart.">
+          <img src="images/mockup-dashboard.svg" alt="Thumbnail of the Northlight learner dashboard" loading="lazy">
+          <figcaption><b>Learner dashboard</b>Progress cards and weekly activity</figcaption>
+        </button>
+
+        <button type="button" class="gallery-item"
+          data-full="images/mockup-builder.svg"
+          data-title="Course builder"
+          data-desc="Instructors drag lessons from the library into a module timeline and set duration and pass mark.">
+          <img src="images/mockup-builder.svg" alt="Thumbnail of the Northlight course builder screen" loading="lazy">
+          <figcaption><b>Course builder</b>Drag-and-drop lesson assembly</figcaption>
+        </button>
+
+        <button type="button" class="gallery-item"
+          data-full="images/mockup-mobile.svg"
+          data-title="Mobile app"
+          data-desc="Today's lessons, a completion streak and a weekly minutes chart, all in the Northlight mobile app.">
+          <img src="images/mockup-mobile.svg" alt="Thumbnail of the Northlight mobile app showing today's lessons" loading="lazy">
+          <figcaption><b>Mobile app</b>Learn on the go</figcaption>
+        </button>
+
+        <button type="button" class="gallery-item"
+          data-full="images/mockup-certificate.svg"
+          data-title="Certificate of completion"
+          data-desc="An automatically generated certificate, issued the moment a learner passes the final quiz.">
+          <img src="images/mockup-certificate.svg" alt="Thumbnail of a Northlight certificate of completion" loading="lazy">
+          <figcaption><b>Certificate</b>Auto-issued on completion</figcaption>
+        </button>
+
+        <button type="button" class="gallery-item"
+          data-full="images/mockup-discussion.svg"
+          data-title="Discussion board"
+          data-desc="A threaded discussion under each module, so learners and instructors can talk through the material.">
+          <img src="images/mockup-discussion.svg" alt="Thumbnail of the Northlight discussion board screen" loading="lazy">
+          <figcaption><b>Discussion board</b>Threaded Q&amp;A per module</figcaption>
+        </button>
+
+        <button type="button" class="gallery-item"
+          data-full="images/mockup-analytics.svg"
+          data-title="Admin analytics"
+          data-desc="A quarterly report administrators use to compare completion rates across teams.">
+          <img src="images/mockup-analytics.svg" alt="Thumbnail of the Northlight admin analytics report" loading="lazy">
+          <figcaption><b>Admin analytics</b>Completion rate by team</figcaption>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt" aria-labelledby="video-heading">
+    <div class="container">
+      <div class="section-head left">
+        <span class="eyebrow">Product walkthrough</span>
+        <h2 id="video-heading">Full walkthrough video</h2>
+        <p class="muted">A screen-recorded product walkthrough lives in the project's shared Google Drive media folder (linked in the accompanying report) rather than this repository, to keep the static site light and fast to load.</p>
+      </div>
+      <div class="video-frame" style="position:relative;">
+        <img src="images/mockup-dashboard.svg" alt="Preview frame from the Northlight product walkthrough video, showing the learner dashboard" loading="lazy">
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(22,35,63,.35);">
+          <span style="background:#fff;color:var(--ink);width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;box-shadow:var(--shadow-m);">▶</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+  <div class="lightbox-box">
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-caption">
+      <div>
+        <h3 id="lightbox-title" style="margin:0 0 4px;"></h3>
+        <p id="lightbox-desc" class="muted" style="margin:0;font-size:.88rem;"></p>
+      </div>
+      <button type="button" class="lightbox-close" aria-label="Close enlarged image">✕</button>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="" width="32" height="32">
+          <span>Northlight LMS</span>
+        </div>
+        <p class="muted">A learning management system built for training teams and schools who want progress to be visible, not guessed at.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="courses.html">Pricing enquiry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@northlightlms.example">hello@northlightlms.example</a></li>
+          <li><a href="tel:+61280001234">+61 2 8000 1234</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year">2026</span> Northlight LMS. A student coursework project for ICT726.</span>
+      <span>Built with HTML5, CSS3 &amp; vanilla JavaScript.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>

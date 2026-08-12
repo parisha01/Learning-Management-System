@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="builderTitle">
+  <title id="builderTitle">Course builder screen showing draggable lesson blocks being assembled into a module</title>
+  <rect width="800" height="560" rx="18" fill="#FFFFFF"/>
+  <rect width="800" height="56" rx="18" fill="#16233F"/>
+  <rect y="38" width="800" height="18" fill="#16233F"/>
+  <text x="30" y="34" font-family="Arial" font-size="16" fill="#F3F1EA">Course Builder — "Data Literacy Foundations"</text>
+
+  <text x="40" y="100" font-family="Arial" font-size="13" fill="#3C4859" font-weight="bold">LESSON LIBRARY</text>
+  <g font-family="Arial" font-size="12">
+    <rect x="40" y="116" width="220" height="46" rx="8" fill="#F1F3EF" stroke="#D9DED6"/>
+    <text x="56" y="144" fill="#16233F">📄 Reading: Intro to Data</text>
+    <rect x="40" y="172" width="220" height="46" rx="8" fill="#F1F3EF" stroke="#D9DED6"/>
+    <text x="56" y="200" fill="#16233F">🎬 Video: Spotting Bias</text>
+    <rect x="40" y="228" width="220" height="46" rx="8" fill="#F1F3EF" stroke="#D9DED6"/>
+    <text x="56" y="256" fill="#16233F">📝 Quiz: Chart Reading</text>
+  </g>
+
+  <line x1="300" y1="90" x2="300" y2="520" stroke="#D9DED6"/>
+
+  <text x="330" y="100" font-family="Arial" font-size="13" fill="#3C4859" font-weight="bold">MODULE 1 — GETTING STARTED</text>
+  <g font-family="Arial" font-size="13">
+    <rect x="330" y="118" width="420" height="52" rx="8" fill="#FFFFFF" stroke="#5C8374" stroke-width="2"/>
+    <circle cx="352" cy="144" r="10" fill="#5C8374"/>
+    <text x="368" y="149" fill="#16233F">1. Welcome video</text>
+    <text x="700" y="149" fill="#9AA6A0">4 min</text>
+
+    <rect x="330" y="182" width="420" height="52" rx="8" fill="#FFFFFF" stroke="#D9DED6"/>
+    <circle cx="352" cy="208" r="10" fill="#E3A23C"/>
+    <text x="368" y="213" fill="#16233F">2. Reading: Intro to Data</text>
+    <text x="700" y="213" fill="#9AA6A0">8 min</text>
+
+    <rect x="330" y="246" width="420" height="52" rx="8" fill="#FFFFFF" stroke-dasharray="6 6" stroke="#9AA6A0"/>
+    <text x="368" y="278" fill="#9AA6A0">+ Drop a lesson here</text>
+  </g>
+
+  <rect x="330" y="330" width="420" height="150" rx="10" fill="#F1F3EF"/>
+  <text x="350" y="356" font-family="Arial" font-size="12" fill="#3C4859" font-weight="bold">SETTINGS</text>
+  <text x="350" y="382" font-family="Arial" font-size="12" fill="#16233F">Estimated duration: 45 minutes</text>
+  <text x="350" y="404" font-family="Arial" font-size="12" fill="#16233F">Passing score: 80%</text>
+  <rect x="350" y="424" width="120" height="34" rx="8" fill="#16233F"/>
+  <text x="410" y="446" text-anchor="middle" font-family="Arial" font-size="12" fill="#F3F1EA">Save module</text>
+</svg>

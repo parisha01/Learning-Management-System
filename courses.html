@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Courses — Northlight LMS</title>
+<meta name="description" content="Browse Northlight LMS's course catalogue, from onboarding to leadership and compliance training.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html">
+      <img src="images/logo.svg" alt="" width="38" height="38">
+      <span class="brand-name">Northlight LMS</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html" aria-current="page">Courses</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section-tight">
+    <div class="container">
+      <span class="eyebrow">Course catalogue</span>
+      <h1>Courses built for real workplaces and classrooms</h1>
+      <p class="lede" style="max-width:66ch;font-size:1.05rem;">Every Northlight course mixes short readings, video walkthroughs and a graded quiz, so completion actually means something. This page is a static prototype of the catalogue — enrolment and checkout would be handled by a server-side system in a production build.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="catalogue-heading">
+    <div class="container">
+      <h2 id="catalogue-heading" class="visually-hidden">Available courses</h2>
+      <div class="grid grid-3">
+
+        <article class="course-card">
+          <div class="thumb" style="background:linear-gradient(135deg,#5C8374,#7EA893);">📈</div>
+          <div class="body">
+            <div class="course-tags"><span class="tag">Analytics</span><span class="tag">Beginner</span></div>
+            <h3>Data Literacy Foundations</h3>
+            <p class="muted">Read charts with confidence, spot common statistical traps, and bring data into everyday decisions.</p>
+            <div class="course-meta"><span>6 lessons · 3.5 hrs</span><span>★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="thumb" style="background:linear-gradient(135deg,#16233F,#2C3A5C);">🧭</div>
+          <div class="body">
+            <div class="course-tags"><span class="tag">Leadership</span><span class="tag">Intermediate</span></div>
+            <h3>Leadership Essentials</h3>
+            <p class="muted">Practical coaching frameworks for first-time team leads, from feedback to delegation.</p>
+            <div class="course-meta"><span>9 lessons · 5 hrs</span><span>★ 4.9</span></div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="thumb" style="background:linear-gradient(135deg,#C4573A,#E3A23C);">🦺</div>
+          <div class="body">
+            <div class="course-tags"><span class="tag">Compliance</span><span class="tag">Required</span></div>
+            <h3>Workplace Safety Compliance</h3>
+            <p class="muted">The annual safety refresher, rebuilt as five short modules instead of one long PDF.</p>
+            <div class="course-meta"><span>5 lessons · 1.5 hrs</span><span>★ 4.6</span></div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="thumb" style="background:linear-gradient(135deg,#5C8374,#16233F);">🤝</div>
+          <div class="body">
+            <div class="course-tags"><span class="tag">Customer Service</span><span class="tag">Beginner</span></div>
+            <h3>Customer Service Excellence</h3>
+            <p class="muted">De-escalation scripts, tone-of-voice guidelines and real support-ticket case studies.</p>
+            <div class="course-meta"><span>7 lessons · 2.5 hrs</span><span>★ 4.7</span></div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="thumb" style="background:linear-gradient(135deg,#E3A23C,#C6842A);">🔐</div>
+          <div class="body">
+            <div class="course-tags"><span class="tag">IT &amp; Security</span><span class="tag">Required</span></div>
+            <h3>Cyber Hygiene Basics</h3>
+            <p class="muted">Password habits, phishing recognition and safe device use for non-technical staff.</p>
+            <div class="course-meta"><span>4 lessons · 1 hr</span><span>★ 4.8</span></div>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <div class="thumb" style="background:linear-gradient(135deg,#2C3A5C,#5C8374);">🎯</div>
+          <div class="body">
+            <div class="course-tags"><span class="tag">Onboarding</span><span class="tag">New hire</span></div>
+            <h3>Onboarding Basics</h3>
+            <p class="muted">A guided first week: culture, tools and who's who, finished before day five.</p>
+            <div class="course-meta"><span>4 lessons · 45 min</span><span>★ 4.9</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt" aria-labelledby="cert-heading">
+    <div class="container grid grid-2" style="align-items:center;gap:56px;">
+      <div class="hero-art" style="transform:rotate(-1deg);">
+        <img src="images/mockup-certificate.svg" alt="Sample certificate of completion for Data Literacy Foundations, issued to Asha Patel with a score of 92%" loading="lazy">
+      </div>
+      <div>
+        <span class="eyebrow">On completion</span>
+        <h2 id="cert-heading">Every course ends with a certificate worth sharing</h2>
+        <p>Pass the final quiz and Northlight generates a certificate automatically — no admin has to sign off or send it manually. Learners can download it or share it straight to LinkedIn.</p>
+        <a href="contact.html" class="btn btn-dark">Ask about custom courses</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="" width="32" height="32">
+          <span>Northlight LMS</span>
+        </div>
+        <p class="muted">A learning management system built for training teams and schools who want progress to be visible, not guessed at.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="courses.html">Pricing enquiry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@northlightlms.example">hello@northlightlms.example</a></li>
+          <li><a href="tel:+61280001234">+61 2 8000 1234</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year">2026</span> Northlight LMS. A student coursework project for ICT726.</span>
+      <span>Built with HTML5, CSS3 &amp; vanilla JavaScript.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

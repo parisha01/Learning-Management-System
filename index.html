@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Northlight LMS — Learning Management System for Teams &amp; Schools</title>
+<meta name="description" content="Northlight LMS helps schools and training teams build courses, track learner progress and celebrate every milestone in one clear, visual dashboard.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html">
+      <img src="images/logo.svg" alt="" width="38" height="38">
+      <span class="brand-name">Northlight LMS</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-copy">
+        <span class="eyebrow">Learning management, made visible</span>
+        <h1>Northlight LMS</h1>
+        <p class="lede">Northlight LMS helps schools and training teams build courses, track learner progress, and celebrate every milestone. From onboarding modules to certification exams, Northlight turns scattered spreadsheets into one clear, visual learning journey for every student and instructor.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary">Book a demo</a>
+          <a href="courses.html" class="btn btn-ghost">Browse courses</a>
+        </div>
+        <div class="stat-row">
+          <div class="stat"><b>1,284</b><span>Active learners</span></div>
+          <div class="stat"><b>81%</b><span>Avg. completion</span></div>
+          <div class="stat"><b>356</b><span>Certificates issued</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="images/mockup-dashboard.svg" alt="Northlight dashboard showing three course progress cards and a weekly study-minutes chart" width="800" height="560" loading="eager">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROGRESS LEDGER (signature element) ============ -->
+  <section aria-labelledby="ledger-heading">
+    <div class="container">
+      <div class="section-head left">
+        <span class="eyebrow">See it in action</span>
+        <h2 id="ledger-heading">A ledger for every learner's progress</h2>
+        <p class="muted">Every course Northlight touches gets logged the way a good gradebook always has — clear rows, honest percentages, and a status you can read at a glance. Below is a sample learner's ledger.</p>
+      </div>
+
+      <div class="ledger" role="table" aria-label="Sample learner progress ledger">
+        <div class="ledger-head" role="row">
+          <span role="columnheader">Course</span>
+          <span role="columnheader">Progress</span>
+          <span role="columnheader">Completion</span>
+          <span role="columnheader">Status</span>
+        </div>
+
+        <div class="ledger-row" role="row">
+          <span class="course-name" role="cell">Onboarding Basics<small>4 lessons · 45 min</small></span>
+          <span class="bar-track" role="cell"><span class="bar-fill" data-value="100" style="width:100%"></span></span>
+          <span class="pct" role="cell">100%</span>
+          <span class="status-pill done" role="cell">Complete</span>
+        </div>
+
+        <div class="ledger-row" role="row">
+          <span class="course-name" role="cell">Data Literacy Foundations<small>6 lessons · 3.5 hrs</small></span>
+          <span class="bar-track" role="cell"><span class="bar-fill" data-value="72" style="width:72%"></span></span>
+          <span class="pct" role="cell">72%</span>
+          <span class="status-pill progress" role="cell">In progress</span>
+        </div>
+
+        <div class="ledger-row" role="row">
+          <span class="course-name" role="cell">Leadership Essentials<small>9 lessons · 5 hrs</small></span>
+          <span class="bar-track" role="cell"><span class="bar-fill amber" data-value="34" style="width:34%"></span></span>
+          <span class="pct" role="cell">34%</span>
+          <span class="status-pill progress" role="cell">In progress</span>
+        </div>
+
+        <div class="ledger-row" role="row">
+          <span class="course-name" role="cell">Workplace Safety Compliance<small>5 lessons · 1.5 hrs</small></span>
+          <span class="bar-track" role="cell"><span class="bar-fill" data-value="0" style="width:0%"></span></span>
+          <span class="pct" role="cell">0%</span>
+          <span class="status-pill todo" role="cell">Not started</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section-alt" aria-labelledby="features-heading">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Why Northlight</span>
+        <h2 id="features-heading">Everything a training team needs, nothing they don't</h2>
+      </div>
+      <div class="grid grid-4">
+        <div class="card">
+          <div class="icon" aria-hidden="true">🧩</div>
+          <h3>Drag-and-drop builder</h3>
+          <p>Assemble lessons from videos, readings and quizzes without touching a line of code.</p>
+        </div>
+        <div class="card">
+          <div class="icon" aria-hidden="true">📊</div>
+          <h3>Live progress ledger</h3>
+          <p>Every learner's completion percentage updates in real time, right down to the module.</p>
+        </div>
+        <div class="card">
+          <div class="icon" aria-hidden="true">🎓</div>
+          <h3>Automatic certificates</h3>
+          <p>Issue a polished certificate the moment a course is passed — no admin required.</p>
+        </div>
+        <div class="card">
+          <div class="icon" aria-hidden="true">💬</div>
+          <h3>Built-in discussion</h3>
+          <p>Threaded Q&amp;A under every module keeps learners talking to instructors, not just content.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA STRIP ============ -->
+  <section class="section-dark" aria-labelledby="cta-heading">
+    <div class="container center">
+      <h2 id="cta-heading">Ready to see your team's ledger fill in?</h2>
+      <p class="muted">Talk to us about rolling Northlight out to your classroom or workplace — setup usually takes under a week.</p>
+      <a href="contact.html" class="btn btn-primary">Get in touch</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="" width="32" height="32">
+          <span>Northlight LMS</span>
+        </div>
+        <p class="muted">A learning management system built for training teams and schools who want progress to be visible, not guessed at.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="courses.html">Pricing enquiry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@northlightlms.example">hello@northlightlms.example</a></li>
+          <li><a href="tel:+61280001234">+61 2 8000 1234</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year">2026</span> Northlight LMS. A student coursework project for ICT726.</span>
+      <span>Built with HTML5, CSS3 &amp; vanilla JavaScript.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

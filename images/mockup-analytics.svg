@@ -1,0 +1,56 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="analyticsTitle">
+  <title id="analyticsTitle">Admin analytics report showing course completion rates across teams</title>
+  <rect width="800" height="560" rx="18" fill="#FFFFFF"/>
+  <rect width="800" height="56" rx="18" fill="#16233F"/>
+  <rect y="38" width="800" height="18" fill="#16233F"/>
+  <text x="30" y="34" font-family="Arial" font-size="16" fill="#F3F1EA">Admin Analytics — Q3 completion report</text>
+
+  <g font-family="Arial" font-size="12">
+    <rect x="30" y="84" width="170" height="90" rx="12" fill="#F1F3EF"/>
+    <text x="46" y="112" fill="#3C4859">Active learners</text>
+    <text x="46" y="146" font-size="26" fill="#16233F" font-weight="bold">1,284</text>
+
+    <rect x="212" y="84" width="170" height="90" rx="12" fill="#F1F3EF"/>
+    <text x="228" y="112" fill="#3C4859">Avg. completion</text>
+    <text x="228" y="146" font-size="26" fill="#5C8374" font-weight="bold">81%</text>
+
+    <rect x="394" y="84" width="170" height="90" rx="12" fill="#F1F3EF"/>
+    <text x="410" y="112" fill="#3C4859">Certificates issued</text>
+    <text x="410" y="146" font-size="26" fill="#E3A23C" font-weight="bold">356</text>
+
+    <rect x="576" y="84" width="194" height="90" rx="12" fill="#F1F3EF"/>
+    <text x="592" y="112" fill="#3C4859">Avg. quiz score</text>
+    <text x="592" y="146" font-size="26" fill="#16233F" font-weight="bold">88%</text>
+  </g>
+
+  <rect x="30" y="196" width="740" height="330" rx="12" fill="#F1F3EF"/>
+  <text x="50" y="226" font-family="Arial" font-size="13" fill="#16233F" font-weight="bold">Completion rate by team</text>
+
+  <g font-family="Arial" font-size="12" fill="#16233F">
+    <text x="50" y="266">Sales</text>
+    <rect x="140" y="252" width="600" height="18" rx="9" fill="#E3E7DF"/>
+    <rect x="140" y="252" width="540" height="18" rx="9" fill="#5C8374"/>
+    <text x="750" y="266" text-anchor="end">90%</text>
+
+    <text x="50" y="306">Support</text>
+    <rect x="140" y="292" width="600" height="18" rx="9" fill="#E3E7DF"/>
+    <rect x="140" y="292" width="480" height="18" rx="9" fill="#5C8374"/>
+    <text x="750" y="306" text-anchor="end">80%</text>
+
+    <text x="50" y="346">Operations</text>
+    <rect x="140" y="332" width="600" height="18" rx="9" fill="#E3E7DF"/>
+    <rect x="140" y="332" width="390" height="18" rx="9" fill="#E3A23C"/>
+    <text x="750" y="346" text-anchor="end">65%</text>
+
+    <text x="50" y="386">Engineering</text>
+    <rect x="140" y="372" width="600" height="18" rx="9" fill="#E3E7DF"/>
+    <rect x="140" y="372" width="510" height="18" rx="9" fill="#5C8374"/>
+    <text x="750" y="386" text-anchor="end">85%</text>
+
+    <text x="50" y="426">Marketing</text>
+    <rect x="140" y="412" width="600" height="18" rx="9" fill="#E3E7DF"/>
+    <rect x="140" y="412" width="330" height="18" rx="9" fill="#C4573A"/>
+    <text x="750" y="426" text-anchor="end">55%</text>
+  </g>
+  <text x="50" y="480" font-family="Arial" font-size="11" fill="#9AA6A0">Report generated automatically at the end of each quarter.</text>
+</svg>

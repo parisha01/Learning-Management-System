@@ -1,0 +1,58 @@
+/* =========================================================
+   Northlight LMS — responsive.css
+   Breakpoints: 1024px (tablet landscape), 768px (tablet/mobile),
+   480px (small phones)
+   ========================================================= */
+
+/* ---------- Tablet (<=1024px) ---------- */
+@media (max-width:1024px){
+  .hero .container{ grid-template-columns:1fr; }
+  .hero-art{ order:-1; transform:none; max-width:520px; margin:0 auto; }
+  .grid-4{ grid-template-columns:repeat(2,1fr); }
+  .grid-3{ grid-template-columns:repeat(2,1fr); }
+  .footer-grid{ grid-template-columns:1fr 1fr; }
+  .contact-info-grid{ grid-template-columns:1fr; }
+  .gallery-grid{ grid-template-columns:repeat(2,1fr); }
+}
+
+/* ---------- Tablet / mobile nav switch (<=860px) ---------- */
+@media (max-width:860px){
+  .nav-toggle{ display:block; }
+  .main-nav{
+    position:absolute; top:100%; left:0; right:0; background:var(--ink);
+    border-bottom:3px solid var(--amber);
+    max-height:0; overflow:hidden; transition:max-height .25s ease;
+  }
+  .main-nav.open{ max-height:420px; }
+  .main-nav ul{ flex-direction:column; padding:10px 24px 20px; gap:2px; }
+  .main-nav a{ display:block; padding:12px 14px; }
+  .site-header{ position:relative; }
+}
+
+/* ---------- Mobile (<=768px) ---------- */
+@media (max-width:768px){
+  section{ padding:52px 0; }
+  h1{ font-size:2rem; }
+  .ledger-head{ display:none; }
+  .ledger-row{ grid-template-columns:1fr; gap:8px; padding:18px 20px; text-align:left; }
+  .ledger-row .pct{ text-align:left; }
+  .status-pill{ justify-self:start; }
+  .grid-3, .grid-4{ grid-template-columns:1fr; }
+  .testimonial-columns{ column-count:1; }
+  .footer-grid{ grid-template-columns:1fr; }
+  .footer-bottom{ flex-direction:column; text-align:center; }
+  .form-card{ padding:26px; }
+  .stat-row{ gap:22px; }
+  .gallery-grid{ grid-template-columns:1fr; }
+}
+
+/* ---------- Small phones (<=480px) ---------- */
+@media (max-width:480px){
+  .container{ padding:0 16px; }
+  .hero{ padding:64px 0 40px; }
+  .hero-actions{ flex-direction:column; align-items:stretch; }
+  .hero-actions .btn{ justify-content:center; }
+  .card, .form-card{ padding:20px; }
+  .nav-wrap{ padding:12px 16px; }
+  .brand-name{ font-size:1.05rem; }
+}

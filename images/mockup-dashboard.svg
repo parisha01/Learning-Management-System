@@ -1,0 +1,56 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dashTitle">
+  <title id="dashTitle">Northlight dashboard showing course progress cards and a weekly activity chart</title>
+  <rect x="0" y="0" width="800" height="560" rx="18" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="800" height="56" rx="18" fill="#16233F"/>
+  <rect x="0" y="38" width="800" height="18" fill="#16233F"/>
+  <circle cx="28" cy="28" r="7" fill="#E3A23C"/>
+  <circle cx="52" cy="28" r="7" fill="#5C8374"/>
+  <circle cx="76" cy="28" r="7" fill="#C4573A"/>
+  <text x="400" y="34" text-anchor="middle" font-family="Arial" font-size="16" fill="#F3F1EA">My Learning Dashboard</text>
+
+  <!-- sidebar -->
+  <rect x="0" y="56" width="170" height="504" fill="#F1F3EF"/>
+  <rect x="20" y="90" width="130" height="14" rx="4" fill="#16233F"/>
+  <rect x="20" y="130" width="130" height="10" rx="3" fill="#9AA6A0"/>
+  <rect x="20" y="160" width="130" height="10" rx="3" fill="#9AA6A0"/>
+  <rect x="20" y="190" width="130" height="10" rx="3" fill="#9AA6A0"/>
+  <rect x="20" y="220" width="130" height="10" rx="3" fill="#E3A23C"/>
+
+  <!-- progress cards -->
+  <g font-family="Arial">
+    <rect x="196" y="84" width="180" height="120" rx="12" fill="#F3F1EA" stroke="#D9DED6"/>
+    <text x="214" y="112" font-size="14" fill="#16233F" font-weight="bold">Data Literacy</text>
+    <rect x="214" y="128" width="146" height="10" rx="5" fill="#E3E7DF"/>
+    <rect x="214" y="128" width="105" height="10" rx="5" fill="#5C8374"/>
+    <text x="214" y="160" font-size="12" fill="#3C4859">72% complete</text>
+
+    <rect x="392" y="84" width="180" height="120" rx="12" fill="#F3F1EA" stroke="#D9DED6"/>
+    <text x="410" y="112" font-size="14" fill="#16233F" font-weight="bold">Leadership 101</text>
+    <rect x="410" y="128" width="146" height="10" rx="5" fill="#E3E7DF"/>
+    <rect x="410" y="128" width="52" height="10" rx="5" fill="#E3A23C"/>
+    <text x="410" y="160" font-size="12" fill="#3C4859">34% complete</text>
+
+    <rect x="588" y="84" width="180" height="120" rx="12" fill="#F3F1EA" stroke="#D9DED6"/>
+    <text x="606" y="112" font-size="14" fill="#16233F" font-weight="bold">Onboarding</text>
+    <rect x="606" y="128" width="146" height="10" rx="5" fill="#E3E7DF"/>
+    <rect x="606" y="128" width="146" height="10" rx="5" fill="#5C8374"/>
+    <text x="606" y="160" font-size="12" fill="#3C4859">100% complete</text>
+  </g>
+
+  <!-- chart -->
+  <rect x="196" y="228" width="572" height="300" rx="12" fill="#F3F1EA" stroke="#D9DED6"/>
+  <text x="216" y="256" font-family="Arial" font-size="14" fill="#16233F" font-weight="bold">Weekly study minutes</text>
+  <g stroke="#D9DED6"><line x1="216" y1="470" x2="740" y2="470"/><line x1="216" y1="400" x2="740" y2="400"/><line x1="216" y1="330" x2="740" y2="330"/></g>
+  <g fill="#5C8374">
+    <rect x="240" y="380" width="36" height="90" rx="4"/>
+    <rect x="300" y="340" width="36" height="130" rx="4"/>
+    <rect x="360" y="300" width="36" height="170" rx="4"/>
+    <rect x="420" y="360" width="36" height="110" rx="4"/>
+    <rect x="480" y="260" width="36" height="210" rx="4"/>
+  </g>
+  <g fill="#E3A23C">
+    <rect x="540" y="320" width="36" height="150" rx="4"/>
+    <rect x="600" y="290" width="36" height="180" rx="4"/>
+    <rect x="660" y="240" width="36" height="230" rx="4"/>
+  </g>
+</svg>
