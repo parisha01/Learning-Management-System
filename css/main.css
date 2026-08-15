@@ -1,6 +1,6 @@
 /* =========================================================
-   Northlight LMS — main.css
-   Design tokens
+  Northlight LMS — main.css
+  Design tokens
    ========================================================= */
 :root{
   --ink:      #16233F;
@@ -118,7 +118,7 @@ section{ padding:72px 0; }
 .main-nav a[aria-current="page"]{ background:var(--amber); color:var(--ink); font-weight:700; }
 
 /* =========================================================
-   Hero
+  Hero
    ========================================================= */
 .hero{
   background:
@@ -134,9 +134,12 @@ section{ padding:72px 0; }
 .hero-actions{ display:flex; gap:14px; margin-top:28px; flex-wrap:wrap; }
 .hero-art{
   background:var(--paper); border-radius:var(--radius-l); padding:10px; box-shadow:var(--shadow-m);
-  transform:rotate(-1.2deg);
+  /* transform:rotate(0deg); */
 }
-.hero-art img{ border-radius:var(--radius-m); }
+.hero-art img{ 
+  border-radius:var(--radius-m); 
+  
+}
 
 .stat-row{ display:flex; gap:32px; margin-top:40px; flex-wrap:wrap; }
 .stat-row .stat{ margin-right:8px; }
